@@ -11,6 +11,8 @@ public class FakeApiService implements ApiService {
 
     private List<User> users = generateUsers();
     private List<User> randomUsers = FakeApiServiceGenerator.generateRandomUser();
+    private int teamCity = 1;
+
 
 
     /**
